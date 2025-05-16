@@ -1,0 +1,29 @@
+img {
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+    border-radius: 12px;
+    border: 1px black solid;
+}
+#div1{
+    
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.covering-div {
+    width: 30%;
+    height: 150px;
+    margin: 5px;
+    border-radius: 12px;
+    background-color: rgb(82, 18, 18);
+    border: 1px black solid;
+}
+.blur {filter: brightness(0.02);}
+.no-blur {filter: blur(0px);}
+
+body{
+    margin: auto 10%;
+}
